@@ -1,0 +1,57 @@
+body{
+	cursor: default;
+	-webkit-text-size-adjust: none; -webkit-user-select: none;
+}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,table,td,th,img,div,dd,dt,dl{margin:0;padding:0;border:0;}
+ul,ol{list-style-type:none;}
+li{list-style:none;}
+::-webkit-scrollbar{
+	width: 12px;
+	height: 12px;
+	background-color: #FFF;
+}
+::-webkit-scrollbar-thumb{
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.10),inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+}
+.panel{
+	border: solid 1px #CCC;
+	margin:10px 5px;
+	position: relative;
+	background-image: url(../img/loading.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.option{
+	position: absolute;
+	z-index: 999;
+	top:-10px; left:10px;
+	padding:2px 12px;
+	font-size: 18px;
+	background-color: #FFF;
+	color: #222;
+}
+.chart{
+	margin-top: 15px;
+}
+#control{
+	position: fixed;
+	bottom: 2px;
+	right: 10px;
+}
+.btn{
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #006dcc;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	display: inline-block;
+	padding: 2px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #006fff;
+}
