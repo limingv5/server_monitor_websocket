@@ -176,7 +176,7 @@ $(function() {
 		}
 		else {
 			network = initSpline(remote_data.timestamp, remote_data.network, "Network","流量","byte", function(i) {
-				var arr = ['发送', '接收']
+				var arr = ['发送', '接收'];
 				return arr[i];
 			});
 		}
