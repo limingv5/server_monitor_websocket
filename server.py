@@ -14,7 +14,7 @@ time.tzset()
 config = ConfigParser.ConfigParser()
 
 def logInfo(info):
-                               logger = logging.getLogger("wslog")
+	logger = logging.getLogger("wslog")
 	logger.setLevel(logging.INFO)
 
 	localtime = time.localtime(time.time())
